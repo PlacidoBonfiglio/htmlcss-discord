@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 /* Utils */
@@ -12,20 +12,34 @@ a.white{
     font-size: large;
 }
 
+.white{
+    color: white;
+}
+
 .flex{
     display: flex;
 }
 
+.buttons-border{
+    background-color: white;
+    padding: 20px 44px;
+    border: none;
+    border-radius: 40px;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* first header */
 .first-header{
-    height: 100px;
-    background-color: #3161E0;
-    padding: 25px;
+    height: 120px;
+    background-color: #255EE9;
+    padding-top: 40px;
 }
 
 .fh-flex{
     display: flex;
-    width: 1200px;
+    width: 1600px;
     height: 50px;
     margin: 0 auto;
 }
@@ -35,8 +49,15 @@ a.white{
 }
 
 .fh-left{
+    background-image: url('../img/logo.svg');
+    background-size: contain;
+    background-size: 40%;
+    background-repeat: no-repeat;
     flex-basis: 25%;
+    height: 60px;
+    cursor: pointer;
 }
+
 .fh-center{
     flex-basis: 50%;
     padding: 10px;
@@ -54,23 +75,45 @@ a.login{
     text-decoration: none;
     font-size: large; 
     background-color: white;
-    border-radius: 20px;
-    padding: 10px 15px;
+    border-radius: 30px;
+    padding: 12px 20px;
 }
 
 /* second header */
 .second-header{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
     height: 800px;
-    background-color: #3161E0;
-    padding: 100px;
+    padding-top: 200px;
+    background-color: #255EE9;
 }
 
 .sh{
-    width: 1000px;
-    height: 600px;
+    width: 50%;  
     margin: 0 auto;
-    background-color: rgb(183, 106, 255);
-    border: 2px dashed white;
+    height: 400px;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+p.white{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+.header-buttons{
+    justify-content: center;
+    gap: 40px;
+}
+
+.browser{
+    background-color: #23272A;
+    color: white;
 }
 
 /* main */
