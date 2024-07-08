@@ -123,7 +123,7 @@ p.white{
 
 .tech-flex{
     display: flex;
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
     height: 1000px;
     justify-content: center;
@@ -131,22 +131,54 @@ p.white{
 }
 
 .tech-left{
-    flex-basis: 30%;
-    height: 500px;
-    background-color: orange;
-    border: 2px dashed black;
+    flex-basis: 60%;
+    height: 600px;
+    /* border: 2px dashed black; */
+}
+
+.channels-img{
+    background-image: url('../img/item1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h2.main-h2{
+    color: #23272A;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+p.main-p{
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.friends-img{
+    background-image: url('../img/item2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .tech-right{
-    flex-basis: 70%;
-    height: 500px;
-    background-color: pink;
-    border: 2px dashed black;
+    flex-basis: 40%;
+    min-height: 600px;
+    padding: 40px;
+    padding-bottom: 0;
+    /* background-color: pink;
+    border: 2px dashed black; */
+}
+
+
+.community-img{
+    background-image: url('../img/item3.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .tech-flex-reverse{
     display: flex;
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
     height: 1000px;
     justify-content: center;
@@ -159,24 +191,38 @@ p.white{
     background-color: lightgrey;
 }
 
+
 /*  last technology */
 .last-technology{
-    height: 1400px;
+    height: 1800px;
     background-color: lightgrey;
     padding: 200px;
 }
 
 .big-square{
     height: 800px;
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
-    background-color: #dca7ff;
-    border: 2px dashed white;
+    /* background-color: #dca7ff;
+    border: 2px dashed white; */
+}
+
+.tac{
+    text-align: center;
+}
+
+.big-img{
+    background-image: url('../img/item4-big.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .download-flex{
     display: flex;
-    height: 1000px;
+    height: 200px;
     justify-content: center;
     align-items: flex-end;
 }
