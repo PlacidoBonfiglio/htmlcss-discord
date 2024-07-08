@@ -22,7 +22,7 @@ a.white{
 
 .buttons-border{
     background-color: white;
-    padding: 20px 44px;
+    padding: 20px 45px;
     border: none;
     border-radius: 40px;
     font-size: 2rem;
@@ -259,7 +259,7 @@ h3.main-h3{
 /* footer top*/
 .ft-container {
     height: 800px;
-    background-color: rgb(49, 49, 49);
+    background-color: #23272A;
 }
 
 .ft-flex{
@@ -337,12 +337,12 @@ li:first-child{
 /* footer bottom */
 .fb-container{
     height: 200px;
-    background-color: rgb(49, 49, 49);
+    background-color: #23272A;
 }
 
 .fb-flex{
     display: flex;
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
     height: 200px;
     justify-content: center;
@@ -354,19 +354,34 @@ li:first-child{
     justify-content: space-between;
     flex-basis: 100%;
     height: 50px;
-    background-color: rgb(255, 255, 146);
-    border: 2px dashed black;
+    /*background-color: rgb(255, 255, 146);
+    border: 2px dashed black;*/
 }
 
 .content-left{
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
     flex-basis: 20%;
-    height: 50px;
-    background-color: rgb(118, 255, 171);
-    border: 2px dashed black;
+    height: 40px;
+    /*background-color: rgb(118, 255, 171);
+    border: 2px dashed black;*/
 }
 .content-right{
+    justify-content: flex-end;
     flex-basis: 20%;
-    height: 50px;
-    background-color: rgb(118, 255, 171);
-    border: 2px dashed black;
+    height: 40px;
+    /*background-color: rgb(118, 255, 171);
+    border: 2px dashed black;*/
+}
+
+a.register{
+    background-color: #8EA1E1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
 }
