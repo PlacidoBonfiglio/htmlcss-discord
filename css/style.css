@@ -30,6 +30,11 @@ a.white{
     cursor: pointer;
 }
 
+h3{
+    font-size: 2.5rem;
+
+}
+
 /* first header */
 .first-header{
     height: 120px;
@@ -188,14 +193,14 @@ p.main-p{
 
 .grey-technology{
     height: 1000px;
-    background-color: lightgrey;
+    background-color: #F6F6F6;
 }
 
 
 /*  last technology */
 .last-technology{
     height: 1800px;
-    background-color: lightgrey;
+    background-color: #F6F6F6;
     padding: 200px;
 }
 
@@ -220,18 +225,35 @@ p.main-p{
     margin: 0 auto;
 }
 
-.download-flex{
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    align-items: flex-end;
+.stars{
+    height: 80px;
+    width: 750px;
+    margin: 0 auto;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.download{
-    flex-basis: 200px;
-    height: 50px;
-    background-color: yellow;
-    border: 2px dashed black;
+h3.main-h3{
+    color: #23272A;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.purple{
+    justify-content: center;
+}
+
+.purple-download{
+    background-color: #8EA1E1;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
 }
 
 /* footer top*/
